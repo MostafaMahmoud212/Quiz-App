@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./CSS/all.min.css">
+
+  <link type="text/css" href="./CSS/skitter.css" media="all" rel="stylesheet" />
+
+  <!-- Animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Animate.css -->
+
+  <link rel="stylesheet" href="./CSS/style.css">
+
+
+  <title>Quiz App</title>
+</head>
+<body>
+
+  <div id="particles-js" class="position-relative">
+
+    <div class="contan d-flex flex-column position-absolute top-50 start-50 w-75">
+
+      <div class="title text-center rounded-3 animate__animated animate__zoomInDown ">
+        <h2>Quiz App</h2>
+      </div>
+
+      <form action="" id="quizOptions">
+
+        <div class="iner bg-white mb-3 animate__animated animate__fadeInBottomLeft">
+          <h5 class="fs-5" >Choose Category</h5>
+          
+          <select name="Chose-opthon" id="options" class="Chose category w-100 fs-4" >
+            <option selected value="">Any Category</option>
+            <option value="9">General Knowledge</option>
+            <option value="27">Animals</option>
+            <option value="19">Scienc: Mathematics</option>
+            <option value="18">Scienc: Computers</option>
+            <option value="22">Geography</option>
+          </select>
+        </div>
+
+        <div class="iner bg-white mb-3 animate__animated animate__fadeInBottomLeft">
+          <h5 class="fs-5" >Choose Difficulty Level</h5>
+          
+          <select name="Chose-opthon" id="options" class="Chose w-100 fs-4 difficultyOptions" >
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+
+        <div class="iner bg-white mb-3 animate__animated animate__fadeInBottomLeft">
+          <h5 class="fs-5" >Number of Questions</h5>
+          <input type="number" class="Chose w-100 fs-4 qNumber"/>
+        </div>
+
+        <button type="button" class="submitButon animate__animated animate__fadeInBottomLeft w-100 btn btn-primary fs-4 rounded-4">Send</button>
+      </form>
+      
+
+      <div class="quesions  rounded-4">
+        <div class="container ">
+          <div class="row "> 
+            <!-- <div class="question  shadow-lg col-lg-6 offset-lg-3 p-4 rounded-3 d-flex flex-column justify-content-center align-items-center">
+              <div class="w-100 d-flex justify-content-between">
+                <span class="btn btn-category">${this.category}</span>
+                <span class="fs-6 btn btn-questions"> ${this.index + 1} of ${questions.length}  Questions</span>
+              </div>
+              <h2 class="text-capitalize h4 text-center">${this.question}</h2>
+              <ul class="choices w-100 list-unstyled m-0 d-flex flex-wrap text-center justify-content-between ">
+                <li>dsfsdf</li>
+                <li>dsfsdf</li>
+                <li>dsfsdf</li>
+                <li>dsfsdf</li>
+              </ul>
+              <h2 class="text-capitalize text-center score-color h3 fw-bold"><i class="bi bi-emoji-laughing"></i> Score:</h2>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   
+
+  </div>
+
+
+
+
+  <script src="./JS/jquery-3.7.1.min.js"></script>   <!--  jQuery خليه اول ملف في الربط  -->
+
+  <script type="text/javascript" src="./JS/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="./JS/jquery.skitter.min.js"></script>
+
+  <script src="./JS/particles.min.js"></script>
+
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+  <script type="module" src="./JS/main.js" ></script>
+</body>
+</html>
