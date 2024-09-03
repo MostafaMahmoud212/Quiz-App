@@ -1,4 +1,3 @@
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', './JS/particles.json', function() {
 });
 
@@ -94,7 +93,7 @@ class Question {
   
     return allAnsers;
   }
- 
+
   display() {
     const questionMarkUp = `
       <div class="question bg-white shadow-lg col-lg-9 offset-lg-3 m-auto p-4 rounded-3 d-flex flex-column justify-content-center align-items-center">
